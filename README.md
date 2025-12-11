@@ -32,7 +32,6 @@ A lightweight realtime chatbot application where **anonymous users** can create 
 1. **Create a room**
    - An anonymous user creates a room.
    - A unique room ID is generated.
-
 2. **Share the room ID**
    - The ID can be shared with one other user.
    - Only 2 users can join a room.
