@@ -59,7 +59,7 @@ function ChatMessages({ roomId }: { roomId: string }) {
                   m.sender === username ? "text-green-500" : "text-blue-500",
                 )}
               >
-                {m.sender === username ? "YOU" : m.sender}
+                {m.sender === username ? `${username} (YOU)` : m.sender}
               </span>
               <span className="text-[10px] text-zinc-600">
                 {format(m.timestamp, "HH:mm")}
